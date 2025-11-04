@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+body {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1000px;
+}
+
+body > .nav {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  /* offset: none; */
+  height: 70px;
+  display: flex;
+  padding: 0 30px 0 30px;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  position: fixed;
+  top: 20px;
+  border-radius: 50px;
+  z-index: 2;
+  outline: none;
+  backdrop-filter: blur(4px);
+}
+
+body > .nav > .logo {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body > .nav > .pages {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body > .hero {
+    padding: 0 10px 0 10px;
+    height: 600px;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    z-index: 1;
+}
+
+body > .hero > .intro {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body > .hero > .intro > .welcome {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 40px;
+}
+
+body > .hero > .intro > .sometalk {
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+body > .hero > .intro_img {
+    color: black;
+    background-color: black;
+    position: absolute;
+    /* right: 0; */
+    /* left: 10px; */
+    /* width: 100%; */
+    /* transform: translateX(50%); */
+    bottom: 50px;
+    height: auto;
+    width: auto;
+}
+
+body > .hero > .intro_img > img {
+    width: 100px;
+    height: auto;
+}
+
