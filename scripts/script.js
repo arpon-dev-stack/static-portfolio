@@ -4,8 +4,9 @@ window.addEventListener("scroll", () => {
   const viewportHeight = htmlEle.clientHeight;
   const htmlEleHeight = htmlEle.scrollHeight;
   const possibleScroll = htmlEleHeight - viewportHeight;
+  const imgId = document.getElementById('portImg');
   let progress = 0;
 
   progress = (scrollTop / possibleScroll) * 100;
-  console.log(progress);
+  imgId.style.transform = `rotate(${360 * (progress / 100) * 7}deg)`;
 });

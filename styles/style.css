@@ -92,7 +92,10 @@ align-items: center;
   justify-content: center;
   align-items: end;
   font-size: 50px;
+  color: rgb(57, 68, 77);
 }
+
+/* logo color rgb(245, 104, 34) */
 
 .about {
   padding: 70px 250px 0 250px;
@@ -110,20 +113,30 @@ align-items: center;
   position: absolute;
   top: 100px;
   height: auto;
-  width: 250px;
+  width: 230px;
   left: 0;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
   background-color: hsla(211, 100%, 70%, 0.1);
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 4px 5px 0 rgb(57, 68, 77);
+}
+
+.intro_name {
+  margin-left: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive;
+  height: 150px;
+  color: rgb(57, 68, 77);
 }
 
 #portImg {
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 150px;
   border-radius: 100px;
 }
 
@@ -141,6 +154,7 @@ align-items: center;
   height: 30px;
   font-size: 25px;
   font-weight: bold;
+  color: rgb(57, 68, 77);
 }
 
 /* .project {
@@ -187,6 +201,7 @@ align-items: center;
   height: 30px;
   font-size: 25px;
   font-weight: bold;
+  color: rgb(57, 68, 77);
 }
 
 .contact {
@@ -215,9 +230,10 @@ align-items: center;
 }
 
 .skills > a {
-  background-color: rgb(36, 213, 36);
+  /* background-color: rgb(167, 250, 167); */
+  background-color: rgb(176, 230, 230);
   border-radius: 30px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   width: 100%;
   padding: 5px 0 5px 25px;
 }
@@ -228,7 +244,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(198, 103, 34);
+  background-color: rgb(57, 68, 77);
 }
 
 /* connection icon style */
