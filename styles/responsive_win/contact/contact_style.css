@@ -12,11 +12,11 @@
   height: 30px;
   font-size: 25px;
   font-weight: bold;
-  color: rgb(57, 68, 77);
+  color: hsl(207, 15%, 26%);
 }
 
 .contact {
-  margin-top: 40px;
+  margin: 40px auto 0 auto;
   width: 100%;
   height: auto;
   display: flex;
@@ -28,4 +28,11 @@
   height: 70px;
   width: 70px;
   flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.contactchild > i:hover {
+  border-bottom: 2px solid rgb(245, 103, 32);
 }

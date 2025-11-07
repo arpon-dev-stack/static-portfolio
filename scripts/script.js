@@ -1,6 +1,7 @@
 const imgId = document.getElementById("portImg");
 const imgContainer = document.getElementById("intro");
 const img_name = document.getElementById("intro_name");
+const projectchild = document.querySelectorAll('.projectchild');
 
 // portfolio image hover effect
 
@@ -26,3 +27,13 @@ window.addEventListener("scroll", () => {
   imgId.style.transform = `rotate(${((360 * (progress / 100)) * 7)}deg)`;
 });
 
+projectchild.forEach((eachEle) => {
+  eachEle.addEventListener('mouseenter', () => {
+    eachEle.children[1].className = 'indiproject';    
+  });
+});
+projectchild.forEach((eachEle) => {
+  eachEle.addEventListener('mouseleave', () => {
+    eachEle.children[1].className = 'indinohover';    
+  });
+});
