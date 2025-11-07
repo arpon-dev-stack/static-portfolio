@@ -1,0 +1,31 @@
+.contacts {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.contactheader {
+  margin-top: 30px;
+  height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(57, 68, 77);
+}
+
+.contact {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contactchild {
+  height: 70px;
+  width: 70px;
+  flex-shrink: 0;
+}

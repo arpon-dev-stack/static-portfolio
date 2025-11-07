@@ -1,0 +1,33 @@
+/* Standard style start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 20px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+}
+
+body {
+  border-left: 3px solid blue;
+  border-right: 3px solid blue;
+  width: 100%;
+  /* padding: 0 3px 0 3px; */
+  height: auto;
+}
+
+.main {
+display: flex;
+flex-direction: column;
+align-items: center;
+}

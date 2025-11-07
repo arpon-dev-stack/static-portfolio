@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  width: 80%;
+  height: 60px;
+  position: fixed;
+  top: 2px;
+  border-radius: 30px;
+  background-color: hsla(211, 100%, 70%, 0.1);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  width: auto;
+  display: flex;
+  justify-content: start;
+}
+
+.logoimg {
+  height: 58px;
+  width: auto;
+}
+
+.pages {
+  width: auto;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  padding-right: 10px;
+}
+
+.pageitem {
+  width: auto;
+}
+
+.pageitem:hover {
+  border-bottom: 2px solid rgb(245, 103, 32);
+}
